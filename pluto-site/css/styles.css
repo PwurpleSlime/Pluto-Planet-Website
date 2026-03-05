@@ -10,7 +10,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -47,8 +47,25 @@ body {
 }
 
 footer{
-    background-color: #333;
-    color: #FFFF;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 20px 0;
 }}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+
+footer a {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
