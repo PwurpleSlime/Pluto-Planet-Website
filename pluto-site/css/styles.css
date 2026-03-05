@@ -1,5 +1,5 @@
 .hero{
-    background-image: url("./assets/Pluto.png");
+    background-image: url("./asset/Pluto.png");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -13,6 +13,10 @@
 }
 
 .moons{
+
+} 
+
+.timeline{
 
 }
 
