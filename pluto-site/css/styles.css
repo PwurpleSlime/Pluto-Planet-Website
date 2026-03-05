@@ -1,3 +1,4 @@
+<<<<<<< plutoFacts
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -28,4 +29,29 @@ body {
     .facts-grid {
         grid-template-columns: 1fr;
     }
+=======
+.hero{
+    background-image: url("./assets/Pluto.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.moons{
+
+}
+
+footer{
+    background-color: #333;
+    color: #FFFF;
+    text-align: center;
+    padding: 20px 0;
+>>>>>>> develop
 }
