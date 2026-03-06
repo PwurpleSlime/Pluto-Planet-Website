@@ -3,9 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="./js/main.js" defer></script>
+    <title>Pluto Planet Website</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-    
+<body style="margin: 0; padding: 0;">
+    <header style="display: flex; align-items: center; border-bottom: 3px solid black;">
+        <h1 style="width: 15vw; padding-left: 5vw;">Header World</h1>
+        <section id="navBar" style="display: flex; justify-content: space-around; align-items: center; width: 85vw;">
+            <a href="#RandomFact">Random Facts</a>
+            <a href="#Explore">Explore</a>
+            <a href="#moon">Moon</a>
+            <a href="#footer">Footer</a>
+
+        </section>
+    </header>
+    <main>
+        <button id="RandomFact"><h1>Random Fact</h1></button>
+        <button id="plutoMoonDropdownButton"><h1>Dropdown Menu</h1></button>
+        <section id="plutoMoonFactsDropDown"><h1>Drop Down</h1></section>
+        <section>
+            <h1 id="question">Question Num: Question</h1>
+            <section>
+                <button id="buttonA"><h1>Answer A</h1></button>
+                <button id="buttonB"><h1>Answer B</h1></button>
+            </section>
+            <section>
+                <button id="buttonC"><h1>Answer C</h1></button>
+                <button id="buttonD"><h1>Answer D</h1></button>
+            </section>
+        </section>
+        <div class="facts-grid">
+
+    <div class="fact-card">
+        <h3>Fact 1</h3>
+        <p>Pluto is smaller than Earth's moon.</p>
+    </div>
+
+    <div class="fact-card">
+        <h3>Fact 2</h3>
+        <p>There is a heart on it's surface.</p>
+    </div>
+
+    <div class="fact-card">
+        <h3>Fact 3</h3>
+        <p>Pluto has 5 known moons.</p>
+    </div>
+
+    <div class="fact-card">
+        <h3>Fact 4</h3>
+        <p>Pluto was, and still may be volcanically active.</p>
+    </div>
+
+    <div class="fact-card">
+        <h3>Fact 5</h3>
+        <p>Pluto has a "heart" that drives activity on the planet.</p>
+    </div>
+
+    <div class="fact-card">
+        <h3>Fact 6</h3>
+        <p>Pluto has dunes.</p>
+    </div>
+    </div>
+
+<div class="hero">
+    <h1 id="Explore">Explore Pluto</h1>
+    <p>Discover the mysteries of the dwarf planet Pluto, its unique characteristics, and its fascinating moons.</p>
+    <button>Learn More</button>
+</div>
+
+
+<div class="moons" id="moon">
+    <h2>The moons of Pluto</h2>
+    <img src="./asset/TheMoonsOfPluto.png" alt="The moons of Pluto"/>
+    <h3>Charon</h3>
+    <p>Desc.</p>
+    <h3>Styx</h3>
+    <p>Desc.</p>
+    <h3>Nix</h3>
+    <p>Desc.</p>
+    <h3>Kerberos</h3>
+    <p>Desc.</p>
+    <h3>Hydra</h3>
+    <p>Desc.</p>
+</div>
+    </main>
+    <footer id="footer">
+    <p>Jaydee, Mark, and Kaleb</p>
+    <p>
+        Sources: 
+        <br><a href="https://science.nasa.gov/dwarf-planets/pluto/" target="_blank">NASA Pluto Information</a><br>
+        <a href="https://lowell.edu/discover/history-of-pluto/" target="_blank">Lowell Education</a>
+    </p>
+</footer>
 </body>
 </html>
